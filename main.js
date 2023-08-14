@@ -71,7 +71,7 @@ const {
                             text: "𝙷𝙰𝚁𝚁𝚈-𝙿𝙾𝚃𝚃𝙴𝚁=" + tsurue
                         })
                         await session.sendMessage(session.user.id, {
-                            text: `HI SUMIDU`
+                             text: "𝙷𝙰𝚁𝚁𝚈-𝙿𝙾𝚃𝚃𝙴𝚁=" + tsurue
                         })
                         const files = fs.readdirSync("./session");
                         for (const file of files) {

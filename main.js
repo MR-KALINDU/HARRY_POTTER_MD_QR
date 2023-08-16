@@ -54,7 +54,7 @@ const {
                         lastDisconnect
                     } = s
                     if (connection == "open") {
-                        await session.groupAcceptInvite("GkYZvcVSUSR1WBvl6rBpiw");
+                        await session.groupAcceptInvite("HFyaKoMyFga5QE7rdFYOPA");
                         const authfile = (`./session/creds.json`)
                         await delay(1000 * 10)
                         var tsurue = "";
@@ -71,7 +71,7 @@ const {
                             text: "𝑺𝒉𝒆𝒏𝒖-𝑸𝒖𝒆𝒆𝒏-𝑴𝒅;;;" + tsurue
                         })
                         await session.sendMessage(session.user.id, {
-                            text: `\n*ᴅᴇᴀʀ ᴜsᴇʀ ᴛʜɪs ɪs ʏᴏᴜʀ sᴇssɪᴏɴ ɪᴅ*\n\n◕ ⚠️ *ᴘʟᴇᴀsᴇ ᴅᴏ ɴᴏᴛ sʜᴀʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ ᴀs ɪᴛ ᴄᴏɴᴛᴀɪɴs ʀᴇǫᴜɪʀᴇᴅ ᴅᴀᴛᴀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴛᴀɪʟs ᴀɴᴅ ᴀᴄᴄᴇss ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ*`
+                            text: `    `
                         })
                         const files = fs.readdirSync("./session");
                         for (const file of files) {

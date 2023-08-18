@@ -1,0 +1,26 @@
+:root {
+    --primary: #094b65;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    overflow-x: hidden;
+    background: #fff;
+    min-height: 100vh;
+  }
+  
+  .section1 {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary) url('bg.jpeg') no-repeat center center/cover;
+    backdrop-filter: blur(20px);
+  }
+
